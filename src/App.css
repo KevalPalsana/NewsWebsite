@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  nav{
+    display: flex;
+    background-color: lightblue;
+    height: 70px;
+    justify-content: space-between;
+  }
+  nav h1{
+    padding-left: 50px;
+    margin-top: 10px;
+    font-size: xx-large;
+  }
+  ul{
+    padding: 5px;
+    margin-top: 10px;
+    font-size: x-large;
+  }
+  ul a{
+    margin-left: 20px;
+  }
+  .searchbar{
+    margin-right: 70px;
+    padding-top: 17px;
+  }
+  .searchbar input{
+    margin-right: 8px;
+    border-radius: 5px;
+    height: 30px;
+    width: 180px;
+  }
+  .searchbar button{
+    border-radius: 5px;
+    background-color: lightblue;
+    border: 2px solid black;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+  }
+  .searchbar button:hover{
+    color: white;
+    background-color: black;
+  }
+  .head{
+    text-align: center;
+    margin: 25px 0px;
+    font-size: xx-large;
+  }
+  .categorybtn{
+    text-align: center;
+  }
+  .categorybtn button{
+    margin-left: 20px;
+    background-color: rgba(20, 101, 223, 0.937);
+    color: white;
+    height: 33px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .categorybtn button:hover{
+    background-color: black;
+  }
+  .main{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contain{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 400px;
+    width: 300px; 
+    margin: 50px 20px 20px 50px;  
+  }
+  .contain img{
+    width: 300px;
+    height: 170px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .readmore{
+    margin: 10px 10px;
+  }
+  .readmore p{
+    margin: 10px 0px;
+    overflow: hidden;
+    height: 50px;
+  }
+  .btnreadmore{
+    background-color: rgba(20, 101, 223, 0.937);
+    color: white;
+    height: 33px;
+    width: 100px;
+    cursor: pointer;
+  }
+  
